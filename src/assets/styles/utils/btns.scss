@@ -1,0 +1,19 @@
+.default-btn {
+  min-height: 34px;
+  min-width: 100px;
+  padding: 4px 20px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+  background: $secondaryYellow;
+  border-radius: 80px;
+  color: $baseBlack;
+  @include transition;
+  &:hover {
+    background: $baseYellow;
+  }
+  &.disabled {
+    background: $secondaryGray;
+    color: $baseWhite;
+  }
+}

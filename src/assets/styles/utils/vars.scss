@@ -1,0 +1,16 @@
+$baseBlack: #000000;
+$baseWhite: #ffffff;
+$baseYellow: #FFE302;
+$secondaryYellow: #F4E041;
+$baseCian: #00bdd3;
+$baseGray: #f8f8f8;
+$secondaryGray: #B4B4B4;
+$thirdlyGray: #7E7E7E;
+$fourthlyGray: #D0CFCF;
+$baseRed: #CB3D40;
+
+$nunito: 'Nunito';
+
+@mixin transition {
+  transition: all 0.3s ease;
+}
