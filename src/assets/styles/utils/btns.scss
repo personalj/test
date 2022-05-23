@@ -15,5 +15,6 @@
   &.disabled {
     background: $secondaryGray;
     color: $baseWhite;
+    cursor: default;
   }
 }

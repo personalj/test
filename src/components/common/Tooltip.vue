@@ -38,9 +38,7 @@ export default {
   background: $baseBlack;
   border-radius: 4px;
   width: 100%;
-  @media (max-width: 1920px) {
-    word-break: break-all;
-  }
+  word-break: break-all;
   @media (max-width: 1200px) {
     left: 0;
   }
